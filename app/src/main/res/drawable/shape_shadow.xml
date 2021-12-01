@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#81EEEEEE"/>
+            <corners android:topRightRadius="20dp" android:bottomRightRadius="20dp" android:topLeftRadius="5dp" android:bottomLeftRadius="5dp" ></corners>
+
+        </shape>
+    </item>
+
+    <item
+
+        android:left="2dp"
+        android:right="3dp"
+        android:top="1dp"
+        android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cardview_light_background"/>
+            <corners android:topRightRadius="20dp" android:bottomRightRadius="20dp" android:topLeftRadius="5dp" android:bottomLeftRadius="5dp" ></corners>
+        </shape>
+    </item>
+</layer-list>
