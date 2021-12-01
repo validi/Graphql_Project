@@ -39,7 +39,7 @@ public class GraphqlInstance {
                             Request original = chain.request();
                             // Request customization: add request headers
                             Request.Builder requestBuilder = original.newBuilder()
-                                    .header("Authorization", "Bearer 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"); // <-- this is the important line
+                                    .header("Authorization", "Bearer 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"); // <-- this is the important line
 
                             Request request = requestBuilder.build();
                             return chain.proceed(request);
